@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    color: ghostwhite;
+    border: none;
+    padding: 0.8em 1.3em;
+    margin: 0 auto 1em auto;
+    border-radius: 1em;
+    font-size: 1.2em;
+    display: block;
+    width: 200px;
+}
+
+#cNegro {
+    background: rgb(41, 38, 37);
+}
+
+#cVerde {
+    background: rgb(29, 138, 44);
+}
+
+#cAmarillo {
+    background: rgb(236, 224, 45);
+}
+
+main{
+    background-image: url(img/covid.jpg);
+    background-size: cover;
+    /* background: rgb(240, 250, 211); */
+    width: 500px;
+    text-align: center;
+}
